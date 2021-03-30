@@ -322,14 +322,14 @@ body{
 }
 
 .about .about-content .about-text h3{
-    font-size: 40px;
+    font-size: 35px;
     margin-bottom: 15px;
     font-weight: 600;
     color: #302e4d;
 }
 
 .about .about-content .about-text p{
-    font-size: 25px;
+    font-size: 20px;
     line-height: 25px;
     color: #504e70;
     margin: 0;
