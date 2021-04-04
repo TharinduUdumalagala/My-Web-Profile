@@ -400,6 +400,14 @@ input,textarea,select{
 
 }
 
+.about .about-content .my-photo{
+    -ms-flex: 0 0 30%;
+    flex: 0 0 30%;
+    max-width: 30%;
+    margin-top: 50px;
+}
+
+
 .about .about-content .education{
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
@@ -812,4 +820,40 @@ input,textarea,select{
 }
 
 /*Responsive*/
+
+@media (max-width: 1199px) {
+    /*.aside{*/
+    /*    left: -270px;*/
+    /*}*/
+    /*.main-container{*/
+    /*    padding-left:0 ;*/
+    /*}*/
+    .about .about-content .personal-info .info-item p span {
+        display: block;
+        margin-left: 0;
+    }
+}
+
+@media (max-width:991px) {
+    .assigment .assigment-item{
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 767px) {
+    .skills .skill-item,
+    .contact .contact-info-item,
+    .contact .contact-form .col-6,
+    .assigment .assigment-item,
+    .about .about-content .experience,
+    .about .about-content .education,
+    .about .about-content .my-photo,
+    .about .about-content .personal-info{
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
 
